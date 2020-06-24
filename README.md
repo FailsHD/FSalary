@@ -1,2 +1,0 @@
-# FSalary
-Paymount by players
