@@ -1,13 +1,47 @@
+// Идея/Написание FailsHD
+  // Написание Redase
+  // Вк Redase https://vk.com/denias3
+  // Вк FailsHD https://vk.com/ovh_flesh
+
+  // Баги а так-же ошибки просим писать в лс
+  // Разработчикам.
 Messages:
-  Salary: '§7Вы успешно получили на свой счет'
+  Salary: '§7Вы получили награду '
   Time: '§7Следующая з/п будет доступна через'
+  // Money - деньги. ставя изначально 500 игрок при написании
+  // Команды /salary будет получать 500 монет
+  // Permission - пермишен. Укажите пермишен для доступа
+  // К команде /salary отдельным привилегиям
   //
+  // Если вам не надо больше 3-5-8 зарплат
+  // Просто оставьте Permission и Money пустыми
 Vip:
-  Permission:
-  Money:
+  Permission: FSalary.vip
+  Money: 500
 Prem:
-  Permission:
-  Money:
+  Permission: FSalary.prem
+  Money: 1500
 Admin:
-  Permission:
-  Money:
+  Permission: FSalary.admin
+  Money: 3500
+Elite:
+  Permission: FSalary.elite
+  Money: 5000
+Moder:
+  Permission: FSalary.moder
+  Money: 7500
+STModer:
+  Permission: FSalary.stmoder
+  Money: 9000
+STAdmin:
+  Permission: FSalary.stadmin
+  Money: 12000
+Osnova:
+  Permission: FSalary.osnova
+  Money: 15000
+Fly:
+  Permission: FSalary.fly
+  Money: 20000
+GM:
+  Permission: FSalary.gm
+  Money: 25000

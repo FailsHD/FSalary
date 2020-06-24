@@ -13,11 +13,12 @@ public class Commands implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command cmd, String Label, String[] args) {
 
         Configuration cfg = Fails.getPlugin().getConfig();
-        double sum;
+        double sum = 0;
         Player p =(Player)sender;
-        if(p.hasPermission(cfg.getString("Vip.Permission"))){
-            p.sendMessage(cfg.getString("Messages.Salary").replace("&","§"));
+        if(p.hasPermission(cfg.getString("Vip.Permission"))) {
+            p.sendMessage(cfg.getString("Messages.Salary") +cfg.getDouble("Vip.Money")+ "❖");
+            return true;
         }
-        return true;
+        return false;
     }
 }
