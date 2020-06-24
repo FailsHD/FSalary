@@ -1,0 +1,9 @@
+name: FSalary
+authors: [Fails,Redase]
+version: 1.0
+main: FSalary.salary.Fails
+
+commands:
+  salary:
+    description: Paymount by Players
+    usage: /salary
